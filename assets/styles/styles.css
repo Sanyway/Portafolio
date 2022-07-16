@@ -1,0 +1,183 @@
+
+
+:root{
+    --color-fondo: #1F1D2C;
+    --accent-color: #242635;
+    --gray-light: #E5E5E5;
+    --font-orange: #F1A600;
+    --white: #FFFFFF;
+    --title-mobile: 50px;
+    --subtitle-mobile: 32px;
+    --subsection-mobile: 18px;
+    --body-mobile: 16px;
+    --title-desktop: 100px;
+    --subtitle-desktop: 50px;
+    --subsection-desktop: 45px;
+    --body-desktop: 18px;
+   
+    
+    
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: var(--color-fondo);
+    color: var(--white);
+    
+}
+
+header {
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 650px;
+    padding-bottom: 30px;
+}
+
+.portrait {
+    position: absolute;
+    z-index: -1;
+    right: 3%;
+    margin-bottom: 50px;
+}
+
+.portrait-back{
+    position: absolute;
+    height: 500px;
+    top: 0px;
+    right: 50px;
+    z-index: -3;
+
+}
+.portrait-img {
+    height: 450px;
+    z-index: -2;
+    
+
+}
+.list{
+    margin-top: 20px;
+    padding-bottom: 35px;
+    height: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+
+.home{
+    color: var(--font-orange);
+    text-decoration: underline;
+}
+
+.btn-nav{
+    list-style: none;
+    font-size: var(--body-desktop);
+    margin-left: 30px;
+    text-align: center;
+    
+    
+}
+
+.btn-nav:hover{
+    cursor: pointer;
+    padding-top: 1px;
+
+   
+}
+
+.title{
+    font-size: var(--title-desktop);
+}
+
+.description{
+    width: 70%;
+    font-size: var(--subsection-desktop);
+}
+
+.socialmedia img {
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-self: right;
+}
+.anos{
+    color: var(--font-orange);
+}
+
+.about{
+    position: relative;
+    padding: 20px;
+    height: auto;
+    text-align: center;
+    background-color: var(--accent-color);
+}
+
+.study{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+
+.logo{
+    padding: 20px 20px 0 20px;
+    margin: 10px 10px 0 20px;
+}
+
+.logo img {
+    border-radius: 10%;
+    height: 120px;
+}
+.study1 {
+    margin: 10px;
+    
+}
+
+.experience{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.experience h2 {
+    margin-bottom: 30px;
+}
+.exp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 30%;
+    text-align: start;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.exp-text {
+    width: 120px;
+    
+
+}
+
+.line{
+    position: absolute;
+    margin-left: 85%;
+    margin-top: 70px;   
+}
+
+.line img {
+    height: 370px;
+}
